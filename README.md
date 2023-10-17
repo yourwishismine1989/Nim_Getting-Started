@@ -22,13 +22,14 @@ A quick how to with your first application example
                 Nim
             close VSCode window
  
-## __hello-world__ (tested on Windows 11 on 10/17/2023)
-    New-Item -Type File -Name hello-world.nim -Path .\
-    code hello-world.nim
+## __helloworld.nim__ (tested on Windows 11 on 10/17/2023)
+    New-Item -Type File -Name helloworld.nim -Path .\
+    code helloworld.nim
     echo "Hello World"
     CTRL-s
     close VSCode window
-
-
-    nim cc .\hello-world.nim
-    nim js .\hello-world.nim
+### the beauty of Nim
+##### the following creates an executable (.exe on Windows)
+    nim cc .\helloworld.nim
+##### the following creates JavaScript that can be run in the browser or node
+    nim js .\helloworld.nim
