@@ -33,3 +33,9 @@ A quick how to with your first application example
     nim cc .\helloworld.nim
 ##### the following creates JavaScript that can be run in the browser or node
     nim js .\helloworld.nim
+
+### Congratulations, on making your first Nim program
+#### Notes
+<!-- links -->
+* [Nim - Official Website](https://nim-lang.org)
+* [Nim - Documentation](https://nim-lang.org/documentation.html)
